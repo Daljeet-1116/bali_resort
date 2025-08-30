@@ -29,8 +29,8 @@ export default function Navbar() {
     >
       <div className="max-w-8xl mx-auto px-6 flex justify-between items-center h-16">
        
-        <div className="flex items-center space-x-2">
-          <img src="/images/logo.png" alt="Logo" className="w-20 h-16 mt-4" />
+        <div className="flex items-center space-x-2  ">
+          <img src="/images/logo.png" alt="Logo" className="w-20 h-16" />
         </div>
 
        
@@ -38,7 +38,7 @@ export default function Navbar() {
 
         <div className="hidden md:flex flex-1 justify-center items-center"> 
             <div className="flex space-x-10 text-white hover:text-gray-600 border-white border-b-1  transition duration-300">
-                 <span className="font-medium py-3 pe-24 ">BALI</span>
+                 <span className="font-medium py-3 pe-24   ">BALI</span>
                   <a href="#"className="text-white pt-3 py-5 hover:text-gray-600 font-medium border-b-3 border-transparent hover:border-white transition duration-300">Hotles</a>
                    <a href="#"className="text-white pt-3 py-5 hover:text-gray-600 font-medium border-b-3 border-transparent hover:border-white transition duration-300">Dining</a>
                     <a href="#"className="text-white pt-3 py-5 hover:text-gray-600 font-medium border-b-3 border-transparent hover:border-white transition duration-300">Spa</a> 

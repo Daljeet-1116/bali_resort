@@ -36,7 +36,7 @@ function Hero() {
       {/* section 2 */}
 
       <section
-        className="min-h-screen py-[20rem] flex flex-col items-center justify-center bg-cover bg-center text-white px-4"
+        className="min-h-screen py-[27rem] flex flex-col items-center justify-center bg-cover bg-center text-white px-4"
         style={{ backgroundImage: "url('/images/bg2.webp')" }}
       >
         <div className="text-center group cursor-pointer w-full max-w-6xl ">
@@ -44,7 +44,7 @@ function Hero() {
             AYANA BALI
           </span>
 
-          <h1 className="text-4xl sm:text-6xl font-bold mb-3 transition-transform duration-300 group-hover:scale-105 group-hover:text-pink-500">
+          <h1 className="text-4xl py-4 sm:text-6xl font-bold mb-3 transition-transform duration-300 group-hover:scale-105 group-hover:text-pink-500">
             RESORT
           </h1>
 
