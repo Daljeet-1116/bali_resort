@@ -21,21 +21,15 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full fixed  left-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-black/60 backdrop-blur-md shadow-md"
-          : "bg-transparent"
-      }`}
-    >
+      className={`w-full fixed  left-0 z-50 transition-all duration-500
+         ${scrolled ? "bg-black/60 backdrop-blur-md shadow-md": "bg-transparent"}`} >
+
       <div className="max-w-8xl mx-auto px-6 flex justify-between items-center h-16">
-       
-        <div className="flex items-center space-x-2  ">
-          <img src="/images/logo.png" alt="Logo" className="w-20 h-16" />
+        <div className="flex items-center space-x-1 pt-4 p-2 ">
+          <img src="/images/logo.png" alt="Logo" className="w-26 h-28" />
         </div>
 
-       
-
-
+  
         <div className="hidden md:flex flex-1 justify-center items-center"> 
             <div className="flex space-x-10 text-white hover:text-gray-600 border-white border-b-1  transition duration-300">
                  <span className="font-medium py-3 pe-24   ">BALI</span>
