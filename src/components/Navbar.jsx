@@ -70,7 +70,7 @@ export default function Navbar() {
       </div>
 
            {isOpen && (
-        <div className="px-6 pb-3 md:hidden text-white space-y-3 backdrop-blur-lg bg-black/80 shadow-md">
+        <div className="ms-20 px-6 p-3 md:hidden text-white space-y-3 backdrop-blur-lg bg-black/80 shadow-md rounded-2xl">
           <a href="#" className="block hover:text-red-400">Hotels</a>
           <a href="#" className="block hover:text-red-400">Dining</a>
           <a href="#" className="block hover:text-red-400">Spa</a>
