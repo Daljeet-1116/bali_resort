@@ -11,7 +11,7 @@ function Hero() {
         <span
           className="text-lg mb-6 cursor-pointer tracking-wide inline-block 
                  transition-all duration-500 
-                 hover:text-black hover:scale-110 hover:animate-pulse"
+                 hover:text-blue-500 hover:scale-110 hover:animate-pulse"
         >
           AYANA BALI
         </span>
