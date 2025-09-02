@@ -79,11 +79,11 @@ function Hero() {
               <img
                 src="/images/a.webp"
                 alt="Imvabvknrbks;b"
-                className="w-full h-64 md:h-80 object-cover rounded-lg"
+                className="w-full h-64 md:h-80 object-cover rounded-lg transform transition-transform duration-500 hover:scale-110"
               />
             </div>
           </div>
-          <div className=" p-6 border-b-2 border-b-black h-[290px] pt-22 ">
+          <div className=" p-6 border-b-2 border-t-2 border-b-black h-[290px] pt-22 ">
             <h2 className="text-xl md:text-2xl font-bold mb-2">Swimming</h2>
             <p className="text-gray-700 mb-1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -93,7 +93,7 @@ function Hero() {
             </p>
           </div>
 
-          <div className=" p-6 border-b-2 border-b-black h-[290px] pt-22 ">
+          <div className=" p-6 border-b-2 border-t-2 border-b-black h-[290px] pt-22 ">
             <h2 className="text-xl md:text-2xl font-bold mb-2">Spa</h2>
             <p className="text-gray-700 mb-1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -108,7 +108,7 @@ function Hero() {
               <img
                 src="/images/c.webp"
                 alt="Imvabvknrbks;b"
-                className="w-full h-64 md:h-80 object-cover rounded-lg"
+                className="w-full h-64 md:h-80 object-cover rounded-lg transform transition-transform duration-500 hover:scale-110"
               />
             </div>
           </div>
@@ -118,12 +118,12 @@ function Hero() {
               <img
                 src="/images/b.webp"
                 alt="Imvabvknrbks;b"
-                className="w-full h-64 md:h-80 object-cover rounded-lg"
+                className="w-full h-64 md:h-80 object-cover rounded-lg transform transition-transform duration-500 hover:scale-110"
               />
             </div>
           </div>
 
-          <div className=" p-6 border-b-2 border-b-black h-[290px] pt-22 ">
+          <div className=" p-6 border-b-2 border-t-2 border-b-black h-[290px] pt-22 ">
             <h2 className="text-xl md:text-2xl font-bold mb-2">Massage</h2>
             <p className="text-gray-700 mb-1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -133,7 +133,7 @@ function Hero() {
             </p>
           </div>
 
-          <div className=" p-6 border-b-2 border-b-black h-[290px] pt-22 ">
+          <div className=" p-6 border-b-2 border-t-2 border-b-black h-[290px] pt-22 ">
             <h2 className="text-xl md:text-2xl font-bold mb-2">Weeding</h2>
             <p className="text-gray-700 mb-1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -146,9 +146,9 @@ function Hero() {
           <div className=" h-[290px] text-white">
             <div className="">
               <img
-                src="/images/image.png"
+                src="/images/img.png"
                 alt="Imvabvknrbks;b"
-                className="w-full h-64 top-0 cover md:h-80 object-cover  rounded-2xl"
+                className="w-full h-64 md:h-80 object-cover rounded-lg transform transition-transform duration-500 hover:scale-110"
               />
             </div>
           </div>
