@@ -73,7 +73,7 @@ function Hero() {
       {/* section 3 */}
 
       <section className="m-8">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-21 py-18">
+        <div className="max-w-5xl mx-auto grid grid-cols-2 gap-21 py-18">
           <div className=" h-[290px] text-white">
             <div className="">
               <img
@@ -83,7 +83,7 @@ function Hero() {
               />
             </div>
           </div>
-          <div className=" p-6 border-b-2 border-t-2 border-b-black h-[290px] pt-22 ">
+          <div className=" p-6 border-b-2  border-b-black h-[290px] pt-22 ">
             <h2 className="text-xl md:text-2xl font-bold mb-2">Swimming</h2>
             <p className="text-gray-700 mb-1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
